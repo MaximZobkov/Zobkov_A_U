@@ -31,6 +31,21 @@ def first():
     return render_template('1.html')
 
 
+@app.route("/second")
+def second():
+    return render_template('2.html')
+
+
+@app.route("/third")
+def third():
+    return render_template('3.html')
+
+
+@app.route("/fourth")
+def fourth():
+    return render_template('4.html')
+
+
 def main():
     app.run()
 
