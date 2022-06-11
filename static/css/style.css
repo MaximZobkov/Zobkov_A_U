@@ -20,7 +20,7 @@ nav::after {
 .navbar-brand {
     font-family: "BankGothic Md BT", sans-serif;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
     align-items: center;
 }
 
@@ -35,4 +35,24 @@ nav::after {
 
 .card {
     background: rgba(255, 255, 255, 0.85);
+}
+html {
+height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+    top: 90%;
+    width: 100%;
+}
+
+.footer::before {
+    border-bottom: 1px solid black;
+    content: '';
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
 }
