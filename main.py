@@ -7,11 +7,14 @@ from wtforms import IntegerField, SelectField
 from wtforms import StringField, PasswordField, SubmitField, TextAreaField, \
     BooleanField
 from wtforms.validators import DataRequired
+import os, sys
+sys.path.append('/home/v/vaszwe82/.local/lib/python3.6/site-packages/flask')
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 # login_manager = LoginManager()
 # login_manager.init_app(app)
+
 
 
 '''@login_manager.user_loader
